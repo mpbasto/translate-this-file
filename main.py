@@ -5,12 +5,12 @@ TO_LANGUAGE = 'pt'
 FROM_FILEPATH = './test.txt'
 TO_ FILEPATH = './test-pt.txt'
 
-# Instanciate translator object
+# Instanciating translator object
 translator = Translator(to_lang=TO_LANGUAGE)
 
-# Translate document
+# Translating document
 try:
-    with open('./test.txt', mode='r') as from_file:
+    with open(FROM_FILEPATH, mode='r') as from_file:
         text = from_file.read()
         translation = translator.translate(text)
         with open(TO_ FILEPATH, mode='w') as to_file:
