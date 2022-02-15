@@ -1,6 +1,6 @@
-# translate-this-file
-Will translate from test.txt to a new file
-Change "lo_lang" to desired language
+# Translating a .txt file using Python 3 📝
 
-Available languages:
-https://en.wikipedia.org/wiki/ISO_639-1   Examples: (e.g. en, ja, ko, pt, zh, zh-TW, ...)
+This programme translates from test.txt and outputs result into a new file using the [translate module](https://pypi.org/project/translate/). Translate is a simple but powerful translation tool written in python with with support for multiple translation providers.
+
+To translate into a different language:
+* Change `to_lang` in the `translator` variable to desired language, which has to be in the format of ISO 639-1 code (available language codes can be found [here](https://en.wikipedia.org/wiki/ISO_639-1)).
